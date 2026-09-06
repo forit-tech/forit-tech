@@ -171,10 +171,6 @@ Data product для анализа владельцев, компаний, до�
 
 <div align="center">
 
-### FORIT TECH
-
-`data first` • `measure twice` • `ship things that work`
-
-<sub>исследую → проверяю → собираю → ломаю → чиню → выкатываю</sub>
+<img src="./assets/footer.svg" width="100%" alt="FORIT TECH animated footer" />
 
 </div>
