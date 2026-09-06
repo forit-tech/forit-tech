@@ -1,0 +1,22 @@
+<svg width="1100" height="420" viewBox="0 0 1100 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="1100" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#0A0810"/><stop offset="1" stop-color="#15101B"/></linearGradient>
+    <filter id="termGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="tclip"><rect width="1100" height="420" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#tclip)">
+    <rect width="1100" height="420" rx="22" fill="url(#termBg)"/><rect x="0.5" y="0.5" width="1099" height="419" rx="21.5" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <rect width="1100" height="54" fill="#17111F"/><circle cx="29" cy="27" r="7" fill="#F38BA8"/><circle cx="53" cy="27" r="7" fill="#FAB387"/><circle cx="77" cy="27" r="7" fill="#A6E3A1"/><text x="550" y="33" text-anchor="middle" fill="#8F8899" font-size="15" font-family="Segoe UI, Arial">forit@lab — ~/workspace</text>
+    <g font-family="Consolas, Menlo, monospace" font-size="21">
+      <text x="48" y="102" fill="#CBA6F7">$</text><text x="74" y="102" fill="#EDE6F4">python run.py</text>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.10;0.14;1" dur="8s" repeatCount="indefinite"/><text x="48" y="148" fill="#8F8899">[01]</text><text x="108" y="148" fill="#89DCEB">loading data</text><text x="275" y="148" fill="#A6E3A1">... ok</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.25;0.30;1" dur="8s" repeatCount="indefinite"/><text x="48" y="194" fill="#8F8899">[02]</text><text x="108" y="194" fill="#F9E2AF">checking assumptions</text><text x="352" y="194" fill="#A6E3A1">... ok</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.41;0.46;1" dur="8s" repeatCount="indefinite"/><text x="48" y="240" fill="#8F8899">[03]</text><text x="108" y="240" fill="#F38BA8">training / testing</text><text x="330" y="240" fill="#A6E3A1">... ok</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.57;0.62;1" dur="8s" repeatCount="indefinite"/><text x="48" y="286" fill="#8F8899">[04]</text><text x="108" y="286" fill="#CBA6F7">breaking something</text><text x="330" y="286" fill="#FAB387">... expected</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.72;0.77;1" dur="8s" repeatCount="indefinite"/><text x="48" y="332" fill="#8F8899">[05]</text><text x="108" y="332" fill="#94E2D5">shipping</text><text x="220" y="332" fill="#A6E3A1">... done</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.86;0.90;1" dur="8s" repeatCount="indefinite"/><text x="48" y="378" fill="#CBA6F7">$</text><text x="74" y="378" fill="#EDE6F4">next experiment_</text></g>
+      <rect x="266" y="359" width="12" height="24" rx="2" fill="#F38BA8" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0" keyTimes="0;0.90;0.92;0.95;0.97;1" dur="8s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0.18"><path d="M760 115C815 75 874 95 900 145C925 190 995 166 1026 210C1056 253 1016 319 955 314C900 309 862 351 815 327C760 300 738 238 760 115Z" stroke="#CBA6F7" stroke-width="2"/><circle cx="802" cy="144" r="5" fill="#CBA6F7" filter="url(#termGlow)"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="918" cy="170" r="5" fill="#F38BA8" filter="url(#termGlow)"><animate attributeName="r" values="5;9;5" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="976" cy="262" r="5" fill="#FAB387" filter="url(#termGlow)"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle><path d="M802 144L918 170L976 262L847 301L802 144Z" stroke="#F38BA8" stroke-opacity="0.7"/></g>
+  </g>
+</svg>
