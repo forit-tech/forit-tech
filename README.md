@@ -18,7 +18,7 @@
 
 Люблю проекты, где недостаточно просто обучить модель и вывести метрику. Мне интереснее собрать весь путь целиком: **данные → анализ → логика → backend → визуализация → рабочий продукт**.
 
-Основной язык — **Python**. Для интерфейсов использую **React / TypeScript**, для API — **FastAPI**. Работаю с SQL, ETL, ML, статистикой, графами и локальными LLM.
+Основной язык — **Python**. Для интерфейсов использую **React / TypeScript**, для API — **FastAPI**. Работаю с SQL, ETL, ML, статистикой, production-аналитикой и локальными LLM.
 
 ```python
 focus = [
@@ -26,7 +26,7 @@ focus = [
     "Machine Learning",
     "Data Analysis",
     "ML / Data Products",
-    "Graph Analytics",
+    "Data Pipelines & Monitoring",
     "LLM & local inference",
 ]
 ```
@@ -41,50 +41,52 @@ focus = [
 
 - исследую данные и строю ML-решения, а не только ноутбуки;
 - собираю end-to-end проекты с backend и интерфейсом;
-- работаю с drift detection и качеством данных;
-- экспериментирую с локальными LLM и inference;
+- работаю с drift detection, качеством данных, пайплайнами и мониторингом;
+- экспериментирую с локальными LLM, evaluation и прикладными AI-системами;
 - развиваю **FORIT TECH** как пространство для своих технических проектов.
 
-## Что я реально строю
+## Чем я занимаюсь
+
+Это не список репозиториев, а скорее **типы систем и задач**, к которым я постоянно возвращаюсь.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### SilentShift — drift detection
+### ML & statistical systems
 
-Система ищет **изменение самого процесса генерации данных** в многомерной телеметрии: фиксирует момент сдвига и показывает, какие сигналы его объясняют.
+Исследую поведение данных во времени: **drift, аномалии, классификацию, ранжирование и качество сигналов**. Обычно начинаю с гипотезы и эксперимента, а заканчиваю воспроизводимым пайплайном и понятной проверкой результата.
 
-`change detection` `telemetry` `statistics` `ML`
+`statistics` `scikit-learn` `time series` `evaluation`
 
 </td>
 <td width="50%" valign="top">
 
-### AutoDataAnalysis — data workspace
+### Data platforms & automation
 
-Загружаешь табличный датасет → получаешь **profiling, проверки качества, ETL, SQL-просмотр и сравнение ML-моделей** в одном интерфейсе.
+Собираю инструменты вокруг данных: **profiling, проверки качества, ETL, SQL, автоматизацию обработки и dashboards**. Идея простая — меньше ручной рутины, больше прозрачного и повторяемого процесса.
 
-`FastAPI` `Polars` `scikit-learn` `React`
+`Python` `Polars` `pandas` `SQL` `ETL`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### REduQuest — learning platform
+### AI / LLM systems
 
-Desktop-платформа, где IT-профессия раскладывается в **маршрут → темы → практические миссии**. Сейчас основной большой маршрут — Data Scientist.
+Экспериментирую с **локальным inference, RAG, оценкой моделей, небольшими классификаторами и LLM-as-a-Verifier**. Мне интересны не демо ради демо, а системы, где можно измерить качество, latency, ресурсы и понять, зачем здесь вообще нужен AI.
 
-`React` `TypeScript` `education` `desktop`
+`LLM` `RAG` `Ollama` `GGUF` `evaluation`
 
 </td>
 <td width="50%" valign="top">
 
-### CompanyOwnership — ownership analytics
+### Product engineering around data
 
-Data product для исследования структуры владения: **компании → владельцы → доли → источники**, с подготовкой исходных данных и интерактивным dashboard для навигации по связям.
+Довожу идеи до рабочего приложения: **API, backend, интерфейс, хранение данных, фоновые процессы, мониторинг и восстановление после ошибок**. Поэтому мои проекты часто находятся где-то между Data Science, backend и продуктовой разработкой.
 
-`Python` `pandas` `React` `Recharts`
+`FastAPI` `React` `PostgreSQL` `ClickHouse` `GitHub Actions`
 
 </td>
 </tr>
