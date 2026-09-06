@@ -1,15 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
   <style>
-    .bg{fill:#11111b;stroke:#313244;stroke-width:1.5}.title{fill:#cdd6f4;font:700 24px 'Segoe UI',sans-serif}.sub{fill:#a6adc8;font:13px 'Segoe UI',sans-serif}.metric{fill:#cba6f7;font:700 44px 'Segoe UI',sans-serif}.label{fill:#bac2de;font:13px 'Segoe UI',sans-serif}.accent{fill:#f5c2e7;font:700 13px 'Segoe UI',sans-serif;letter-spacing:1px}.track{fill:#313244}.dot{fill:#89b4fa}
+    .bg{fill:#11111b;stroke:#313244;stroke-width:1.5}.sub{fill:#a6adc8;font:13px 'Segoe UI',sans-serif}.metric{fill:#cba6f7;font:700 40px 'Segoe UI',sans-serif}.label{fill:#bac2de;font:13px 'Segoe UI',sans-serif}.section{fill:#f5c2e7;font:700 13px 'Segoe UI',sans-serif;letter-spacing:1px}.track{fill:#313244}.dot{fill:#89b4fa}.line{stroke:#313244;stroke-width:1}
   </style>
-  <rect x="1" y="1" width="898" height="358" rx="22" class="bg"/>
-  <text x="56" y="62" class="title">МОЙ GITHUB В ДАННЫХ</text>
-  <text x="56" y="86" class="sub">автоматическая аналитика публичных репозиториев · без сторонних stats-сервисов</text>
-  <text x="56" y="160" class="metric">13</text>
-  <text x="56" y="184" class="label">публичных репозиториев</text>
-  <text x="56" y="238" class="accent">ПЕРВЫЙ ПОЛНЫЙ РАСЧЁТ — ПОСЛЕ MERGE</text>
-  <rect x="56" y="260" width="788" height="10" rx="5" class="track"/>
-  <circle cx="74" cy="265" r="5" class="dot"/><circle cx="98" cy="265" r="5" class="dot"/><circle cx="122" cy="265" r="5" class="dot"/>
-  <text x="56" y="312" class="sub">После запуска появятся: активность за 12 месяцев · направления проектов · языки · темп · индекс технологического разнообразия</text>
-  <text x="56" y="334" class="sub">Методология: analytics/METHODOLOGY.md</text>
+  <rect x="1" y="1" width="898" height="428" rx="22" class="bg"/>
+  <text x="56" y="72" class="metric">13</text><text x="56" y="96" class="label">публичных репозиториев</text>
+  <text x="330" y="72" class="metric">—</text><text x="330" y="96" class="label">проектов Data / ML / AI</text>
+  <text x="620" y="72" class="metric">—</text><text x="620" y="96" class="label">технологий в публичном коде</text>
+  <line x1="56" y1="126" x2="844" y2="126" class="line"/>
+  <text x="56" y="168" class="section">АКТИВНОСТЬ · НАПРАВЛЕНИЯ · ТЕХНОЛОГИИ · РИТМ РАБОТЫ</text>
+  <text x="56" y="214" class="sub">Первый полный расчёт выполнится автоматически после merge.</text>
+  <rect x="56" y="246" width="788" height="10" rx="5" class="track"/>
+  <circle cx="74" cy="251" r="5" class="dot"/><circle cx="98" cy="251" r="5" class="dot"/><circle cx="122" cy="251" r="5" class="dot"/>
+  <text x="56" y="310" class="sub">Появятся реальные графики активности за 12 месяцев, распределение направлений и технологий,</text>
+  <text x="56" y="334" class="sub">heatmap день × время, самое активное время, основное направление и прозрачные производные метрики.</text>
+  <text x="56" y="390" class="sub">Только публичные не-fork репозитории · методология: analytics/METHODOLOGY.md</text>
 </svg>
