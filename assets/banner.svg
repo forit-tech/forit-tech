@@ -1,0 +1,40 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0912"/>
+      <stop offset="0.52" stop-color="#17101F"/>
+      <stop offset="1" stop-color="#09090F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="130" y1="75" x2="1050" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBA6F7"/>
+      <stop offset="0.5" stop-color="#F38BA8"/>
+      <stop offset="1" stop-color="#FAB387"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="0" y="0" width="1200" height="300" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+    <g opacity="0.18">
+      <path d="M0 45H1200M0 95H1200M0 145H1200M0 195H1200M0 245H1200" stroke="#CBA6F7"/>
+      <path d="M90 0V300M190 0V300M290 0V300M390 0V300M490 0V300M590 0V300M690 0V300M790 0V300M890 0V300M990 0V300M1090 0V300" stroke="#F38BA8"/>
+    </g>
+    <g opacity="0.72">
+      <path d="M100 220L235 118L348 188L490 92L637 170L770 88L924 160L1090 78" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="stroke-dasharray" values="0 1800;1800 0" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <g fill="#CBA6F7" filter="url(#glow)"><circle cx="100" cy="220" r="5"/><circle cx="235" cy="118" r="5"/><circle cx="348" cy="188" r="5"/><circle cx="490" cy="92" r="5"/><circle cx="637" cy="170" r="5"/><circle cx="770" cy="88" r="5"/><circle cx="924" cy="160" r="5"/><circle cx="1090" cy="78" r="5"/></g>
+      <circle r="6" fill="#F38BA8" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M100 220L235 118L348 188L490 92L637 170L770 88L924 160L1090 78"/></circle>
+    </g>
+    <rect x="55" y="55" width="550" height="188" rx="18" fill="#0B0912" fill-opacity="0.72" stroke="#CBA6F7" stroke-opacity="0.28"/>
+    <text x="88" y="112" fill="#F5E9FF" font-size="48" font-weight="700" font-family="Segoe UI, Inter, Arial, sans-serif" letter-spacing="1.5">FORIT TECH</text>
+    <text x="89" y="158" fill="#CBA6F7" font-size="22" font-family="Consolas, Menlo, monospace">Data Science · ML · Python</text>
+    <text x="89" y="199" fill="#B9B4C7" font-size="17" font-family="Consolas, Menlo, monospace">data → models → systems → products</text>
+    <rect x="89" y="216" width="9" height="20" rx="2" fill="#F38BA8"><animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></rect>
+    <g opacity="0.34"><circle cx="1040" cy="235" r="52" stroke="#F38BA8"/><circle cx="1040" cy="235" r="35" stroke="#CBA6F7"/><circle cx="1040" cy="235" r="5" fill="#FAB387" filter="url(#glow)"><animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite"/></circle></g>
+    <rect x="0.5" y="0.5" width="1199" height="299" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  </g>
+</svg>
