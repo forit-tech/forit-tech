@@ -49,18 +49,11 @@ focus = [
 
 Это не список репозиториев, а скорее **типы систем и задач**, к которым я постоянно возвращаюсь.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### ML & statistical systems
 
 Исследую поведение данных во времени: **drift, аномалии, классификацию, ранжирование и качество сигналов**. Обычно начинаю с гипотезы и эксперимента, а заканчиваю воспроизводимым пайплайном и понятной проверкой результата.
 
 `statistics` `scikit-learn` `time series` `evaluation`
-
-</td>
-<td width="50%" valign="top">
 
 ### Data platforms & automation
 
@@ -68,19 +61,11 @@ focus = [
 
 `Python` `Polars` `pandas` `SQL` `ETL`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### AI / LLM systems
 
 Экспериментирую с **локальным inference, RAG, оценкой моделей, небольшими классификаторами и LLM-as-a-Verifier**. Мне интересны не демо ради демо, а системы, где можно измерить качество, latency, ресурсы и понять, зачем здесь вообще нужен AI.
 
 `LLM` `RAG` `Ollama` `GGUF` `evaluation`
-
-</td>
-<td width="50%" valign="top">
 
 ### Product engineering around data
 
@@ -88,26 +73,13 @@ focus = [
 
 `FastAPI` `React` `PostgreSQL` `ClickHouse` `GitHub Actions`
 
-</td>
-</tr>
-</table>
-
 ## Проекты
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 ### [SilentShift](https://github.com/forit-tech/SilentShift)
 
-Исследование **concept / data drift** в многомерной телеметрии.
-
-Не просто «нашлась ли аномалия», а **изменился ли сам процесс, который порождает данные**, когда это произошло и какие признаки за это отвечают.
+Исследование **concept / data drift** в многомерной телеметрии. Не просто «нашлась ли аномалия», а **изменился ли сам процесс, который порождает данные**, когда это произошло и какие признаки за это отвечают.
 
 `Python` `scikit-learn` `scipy` `pytest`
-
-</td>
-<td width="50%" valign="top">
 
 ### [AutoDataAnalysis](https://github.com/forit-tech/AutoDataAnalysis)
 
@@ -115,31 +87,17 @@ focus = [
 
 `Python` `FastAPI` `Polars` `scikit-learn` `React`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### [REduQuest](https://github.com/forit-tech/REQuest-EducationPlatform)
 
-Desktop-платформа практического обучения IT-профессиям через маршруты, комнаты и миссии.
-
-Первый большой маршрут — **Data Scientist**.
+Desktop-платформа практического обучения IT-профессиям через маршруты, комнаты и миссии. Первый большой маршрут — **Data Scientist**.
 
 `React` `TypeScript` `Vite` `Desktop`
-
-</td>
-<td width="50%" valign="top">
 
 ### [CompanyOwnership Analysis](https://github.com/forit-tech/CompanyOwnership-analysis)
 
 Data product для анализа владельцев, компаний, долей и источников: от очистки исходных данных до интерактивного dashboard.
 
 `Python` `pandas` `React` `TypeScript` `Recharts`
-
-</td>
-</tr>
-</table>
 
 ## Стек
 
