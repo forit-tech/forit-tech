@@ -73,6 +73,14 @@ focus = [
 
 `FastAPI` `React` `PostgreSQL` `ClickHouse` `GitHub Actions`
 
+<div align="center">
+
+<img src="./assets/analytics.svg" width="100%" alt="Автоматическая аналитика публичной GitHub-активности FORIT TECH" />
+
+</div>
+
+<sub>Метрики пересчитываются автоматически только по публичным не-fork репозиториям. Формулы, ограничения, временная зона и логика классификации описаны в [методологии](./analytics/METHODOLOGY.md).</sub>
+
 ## Проекты
 
 ### [SilentShift](https://github.com/forit-tech/SilentShift)
