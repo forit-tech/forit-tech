@@ -41,58 +41,54 @@ focus = [
 
 - исследую данные и строю ML-решения, а не только ноутбуки;
 - собираю end-to-end проекты с backend и интерфейсом;
-- работаю с drift detection, графовой аналитикой и качеством данных;
-- экспериментирую с локальными LLM и прикладными AI-системами;
+- работаю с drift detection и качеством данных;
+- экспериментирую с локальными LLM и inference;
 - развиваю **FORIT TECH** как пространство для своих технических проектов.
 
-## FORIT LAB
-
-Здесь обычно живут вещи, которые мне хочется **проверить руками**, а не просто прочитать о них.
+## Что я реально строю
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Drift detection
+### SilentShift — drift detection
 
-Проверяю, где заканчивается красивая метрика и начинается реальная нестационарность данных.
+Система ищет **изменение самого процесса генерации данных** в многомерной телеметрии: фиксирует момент сдвига и показывает, какие сигналы его объясняют.
 
-`statistics` `time series` `ML` `monitoring`
+`change detection` `telemetry` `statistics` `ML`
 
 </td>
 <td width="50%" valign="top">
 
-### Graph analytics
+### AutoDataAnalysis — data workspace
 
-Работаю с графами связей, весами рёбер, ролями, центральностью и сценариями handover.
+Загружаешь табличный датасет → получаешь **profiling, проверки качества, ETL, SQL-просмотр и сравнение ML-моделей** в одном интерфейсе.
 
-`graphs` `network analysis` `data products`
+`FastAPI` `Polars` `scikit-learn` `React`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Local LLM
+### REduQuest — learning platform
 
-Запускаю и сравниваю локальные модели, смотрю на память, latency, качество и то, где inference реально имеет смысл.
+Desktop-платформа, где IT-профессия раскладывается в **маршрут → темы → практические миссии**. Сейчас основной большой маршрут — Data Scientist.
 
-`LLM` `GGUF` `Ollama` `local inference`
+`React` `TypeScript` `education` `desktop`
 
 </td>
 <td width="50%" valign="top">
 
-### Applied ML systems
+### Local LLM Lab — inference
 
-Люблю собирать не только модель, а всю систему вокруг неё: данные, API, проверки, интерфейс и эксплуатационный контур.
+Локальный стенд **React → FastAPI → Ollama → GGUF**: запускаю модели на своём железе и сравниваю качество, RAM/VRAM, latency и скорость inference.
 
-`Python` `FastAPI` `React` `ETL`
+`LLM` `Ollama` `GGUF` `FastAPI`
 
 </td>
 </tr>
 </table>
-
-> Не коллекционирую технологии ради списка. Если инструмент здесь появился — значит, я им что-то делала.
 
 ## Проекты
 
