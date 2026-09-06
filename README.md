@@ -80,11 +80,11 @@ Desktop-платформа, где IT-профессия раскладывае�
 </td>
 <td width="50%" valign="top">
 
-### Local LLM Lab — inference
+### CompanyOwnership — ownership analytics
 
-Локальный стенд **React → FastAPI → Ollama → GGUF**: запускаю модели на своём железе и сравниваю качество, RAM/VRAM, latency и скорость inference.
+Data product для исследования структуры владения: **компании → владельцы → доли → источники**, с подготовкой исходных данных и интерактивным dashboard для навигации по связям.
 
-`LLM` `Ollama` `GGUF` `FastAPI`
+`Python` `pandas` `React` `Recharts`
 
 </td>
 </tr>
