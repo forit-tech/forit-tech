@@ -1,17 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
-  <style>
-    .bg{fill:#11111b;stroke:#313244;stroke-width:1.5}.sub{fill:#a6adc8;font:13px 'Segoe UI',sans-serif}.metric{fill:#cba6f7;font:700 40px 'Segoe UI',sans-serif}.label{fill:#bac2de;font:13px 'Segoe UI',sans-serif}.section{fill:#f5c2e7;font:700 13px 'Segoe UI',sans-serif;letter-spacing:1px}.track{fill:#313244}.dot{fill:#89b4fa}.line{stroke:#313244;stroke-width:1}
-  </style>
-  <rect x="1" y="1" width="898" height="428" rx="22" class="bg"/>
-  <text x="56" y="72" class="metric">13</text><text x="56" y="96" class="label">публичных репозиториев</text>
-  <text x="330" y="72" class="metric">—</text><text x="330" y="96" class="label">проектов Data / ML / AI</text>
-  <text x="620" y="72" class="metric">—</text><text x="620" y="96" class="label">технологий в публичном коде</text>
-  <line x1="56" y1="126" x2="844" y2="126" class="line"/>
-  <text x="56" y="168" class="section">АКТИВНОСТЬ · НАПРАВЛЕНИЯ · ТЕХНОЛОГИИ · РИТМ РАБОТЫ</text>
-  <text x="56" y="214" class="sub">Первый полный расчёт выполнится автоматически после merge.</text>
-  <rect x="56" y="246" width="788" height="10" rx="5" class="track"/>
-  <circle cx="74" cy="251" r="5" class="dot"/><circle cx="98" cy="251" r="5" class="dot"/><circle cx="122" cy="251" r="5" class="dot"/>
-  <text x="56" y="310" class="sub">Появятся реальные графики активности за 12 месяцев, распределение направлений и технологий,</text>
-  <text x="56" y="334" class="sub">heatmap день × время, самое активное время, основное направление и прозрачные производные метрики.</text>
-  <text x="56" y="390" class="sub">Только публичные не-fork репозитории · методология: analytics/METHODOLOGY.md</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="910" viewBox="0 0 900 910">
+<style>
+.bg{fill:#11111b;stroke:#313244;stroke-width:1.5} .sub{fill:#a6adc8;font:13px 'Segoe UI',sans-serif} .metric{fill:#cba6f7;font:700 31px 'Segoe UI',sans-serif} .metricLabel{fill:#a6adc8;font:12px 'Segoe UI',sans-serif} .section{fill:#f5c2e7;font:700 13px 'Segoe UI',sans-serif;letter-spacing:1.2px} .label{fill:#cdd6f4;font:12px 'Segoe UI',sans-serif} .value{fill:#bac2de;font:11px 'Segoe UI',sans-serif} .track{fill:#313244} .bar{fill:#cba6f7} .spark{fill:#89b4fa} .line{stroke:#313244;stroke-width:1} .summaryKey{fill:#a6adc8;font:12px 'Segoe UI',sans-serif} .summaryValue{fill:#cdd6f4;font:600 12px 'Segoe UI',sans-serif} .heatAxis{fill:#7f849c;font:10px 'Segoe UI',sans-serif} .heat0{fill:#313244} .heat1{fill:#45475a} .heat2{fill:#585b70} .heat3{fill:#89b4fa} .heat4{fill:#cba6f7}
+</style>
+<rect x="1" y="1" width="898" height="908" rx="22" class="bg"/>
+<text x="56" y="58" class="metric">13</text><text x="56" y="80" class="metricLabel">публичных репозиториев</text>
+<text x="322" y="58" class="metric">69%</text><text x="322" y="80" class="metricLabel">проектов Data / ML / AI</text>
+<text x="615" y="58" class="metric">10</text><text x="615" y="80" class="metricLabel">технологий в публичном коде</text>
+<line x1="56" y1="108" x2="844" y2="108" class="line"/>
+<text x="56" y="142" class="section">АКТИВНОСТЬ ЗА 12 МЕСЯЦЕВ</text><rect x="56" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="96" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="136" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="176" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="216" y="224.9" width="24" height="13.1" rx="4" class="spark"/><rect x="256" y="224.9" width="24" height="13.1" rx="4" class="spark"/><rect x="296" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="336" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="376" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="416" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="456" y="198.7" width="24" height="39.3" rx="4" class="spark"/><rect x="496" y="180.0" width="24" height="58.0" rx="4" class="spark"/>
+<text x="56" y="270" class="sub">темп за последние 90 дней: +1200%</text>
+<text x="56" y="314" class="section">НАПРАВЛЕНИЯ ПРОЕКТОВ</text><text x="520" y="314" class="section">ТЕХНОЛОГИИ</text>
+<text x="56" y="342" class="label">Data Science</text>
+<rect x="56" y="352" width="260" height="8" rx="4" class="track"/>
+<rect x="56" y="352" width="20.8" height="8" rx="4" class="bar"/>
+<text x="328" y="360" class="value">8%</text>
+<text x="56" y="387" class="label">Machine Learning</text>
+<rect x="56" y="397" width="260" height="8" rx="4" class="track"/>
+<rect x="56" y="397" width="80.6" height="8" rx="4" class="bar"/>
+<text x="328" y="405" class="value">31%</text>
+<text x="56" y="432" class="label">AI / LLM</text>
+<rect x="56" y="442" width="260" height="8" rx="4" class="track"/>
+<rect x="56" y="442" width="0.0" height="8" rx="4" class="bar"/>
+<text x="328" y="450" class="value">0%</text>
+<text x="56" y="477" class="label">Data Engineering</text>
+<rect x="56" y="487" width="260" height="8" rx="4" class="track"/>
+<rect x="56" y="487" width="80.6" height="8" rx="4" class="bar"/>
+<text x="328" y="495" class="value">31%</text>
+<text x="56" y="522" class="label">Backend / Product</text>
+<rect x="56" y="532" width="260" height="8" rx="4" class="track"/>
+<rect x="56" y="532" width="59.8" height="8" rx="4" class="bar"/>
+<text x="328" y="540" class="value">23%</text>
+<text x="56" y="567" class="label">Другое</text>
+<rect x="56" y="577" width="260" height="8" rx="4" class="track"/>
+<rect x="56" y="577" width="20.8" height="8" rx="4" class="bar"/>
+<text x="328" y="585" class="value">8%</text>
+<text x="520" y="342" class="label">TypeScript</text>
+<rect x="520" y="352" width="250" height="8" rx="4" class="track"/>
+<rect x="520" y="352" width="70.0" height="8" rx="4" class="bar"/>
+<text x="782" y="360" class="value">28.3%</text>
+<text x="520" y="387" class="label">JavaScript</text>
+<rect x="520" y="397" width="250" height="8" rx="4" class="track"/>
+<rect x="520" y="397" width="50.0" height="8" rx="4" class="bar"/>
+<text x="782" y="405" class="value">20.0%</text>
+<text x="520" y="432" class="label">Python</text>
+<rect x="520" y="442" width="250" height="8" rx="4" class="track"/>
+<rect x="520" y="442" width="50.0" height="8" rx="4" class="bar"/>
+<text x="782" y="450" class="value">19.5%</text>
+<text x="520" y="477" class="label">Jupyter Notebook</text>
+<rect x="520" y="487" width="250" height="8" rx="4" class="track"/>
+<rect x="520" y="487" width="32.5" height="8" rx="4" class="bar"/>
+<text x="782" y="495" class="value">13.2%</text>
+<text x="520" y="522" class="label">Другое</text>
+<rect x="520" y="532" width="250" height="8" rx="4" class="track"/>
+<rect x="520" y="532" width="47.5" height="8" rx="4" class="bar"/>
+<text x="782" y="540" class="value">19.0%</text>
+<line x1="56" y1="626" x2="844" y2="626" class="line"/>
+<text x="56" y="660" class="section">РИТМ РАБОТЫ</text>
+<text x="570" y="659" text-anchor="middle" class="heatAxis">00</text>
+<text x="603" y="659" text-anchor="middle" class="heatAxis">03</text>
+<text x="636" y="659" text-anchor="middle" class="heatAxis">06</text>
+<text x="669" y="659" text-anchor="middle" class="heatAxis">09</text>
+<text x="702" y="659" text-anchor="middle" class="heatAxis">12</text>
+<text x="735" y="659" text-anchor="middle" class="heatAxis">15</text>
+<text x="768" y="659" text-anchor="middle" class="heatAxis">18</text>
+<text x="801" y="659" text-anchor="middle" class="heatAxis">21</text>
+<text x="539" y="686" text-anchor="end" class="heatAxis">Пн</text>
+<rect x="557" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="590" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="689" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="722" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="755" y="673" width="27" height="17" rx="4" class="heat0"/>
+<rect x="788" y="673" width="27" height="17" rx="4" class="heat1"/>
+<text x="539" y="709" text-anchor="end" class="heatAxis">Вт</text>
+<rect x="557" y="696" width="27" height="17" rx="4" class="heat0"/>
+<rect x="590" y="696" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="696" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="696" width="27" height="17" rx="4" class="heat0"/>
+<rect x="689" y="696" width="27" height="17" rx="4" class="heat1"/>
+<rect x="722" y="696" width="27" height="17" rx="4" class="heat1"/>
+<rect x="755" y="696" width="27" height="17" rx="4" class="heat1"/>
+<rect x="788" y="696" width="27" height="17" rx="4" class="heat0"/>
+<text x="539" y="732" text-anchor="end" class="heatAxis">Ср</text>
+<rect x="557" y="719" width="27" height="17" rx="4" class="heat0"/>
+<rect x="590" y="719" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="719" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="719" width="27" height="17" rx="4" class="heat0"/>
+<rect x="689" y="719" width="27" height="17" rx="4" class="heat0"/>
+<rect x="722" y="719" width="27" height="17" rx="4" class="heat2"/>
+<rect x="755" y="719" width="27" height="17" rx="4" class="heat1"/>
+<rect x="788" y="719" width="27" height="17" rx="4" class="heat0"/>
+<text x="539" y="755" text-anchor="end" class="heatAxis">Чт</text>
+<rect x="557" y="742" width="27" height="17" rx="4" class="heat0"/>
+<rect x="590" y="742" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="742" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="742" width="27" height="17" rx="4" class="heat0"/>
+<rect x="689" y="742" width="27" height="17" rx="4" class="heat3"/>
+<rect x="722" y="742" width="27" height="17" rx="4" class="heat1"/>
+<rect x="755" y="742" width="27" height="17" rx="4" class="heat0"/>
+<rect x="788" y="742" width="27" height="17" rx="4" class="heat0"/>
+<text x="539" y="778" text-anchor="end" class="heatAxis">Пт</text>
+<rect x="557" y="765" width="27" height="17" rx="4" class="heat1"/>
+<rect x="590" y="765" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="765" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="765" width="27" height="17" rx="4" class="heat1"/>
+<rect x="689" y="765" width="27" height="17" rx="4" class="heat1"/>
+<rect x="722" y="765" width="27" height="17" rx="4" class="heat3"/>
+<rect x="755" y="765" width="27" height="17" rx="4" class="heat1"/>
+<rect x="788" y="765" width="27" height="17" rx="4" class="heat1"/>
+<text x="539" y="801" text-anchor="end" class="heatAxis">Сб</text>
+<rect x="557" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="590" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="689" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="722" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="755" y="788" width="27" height="17" rx="4" class="heat0"/>
+<rect x="788" y="788" width="27" height="17" rx="4" class="heat0"/>
+<text x="539" y="824" text-anchor="end" class="heatAxis">Вс</text>
+<rect x="557" y="811" width="27" height="17" rx="4" class="heat0"/>
+<rect x="590" y="811" width="27" height="17" rx="4" class="heat0"/>
+<rect x="623" y="811" width="27" height="17" rx="4" class="heat0"/>
+<rect x="656" y="811" width="27" height="17" rx="4" class="heat0"/>
+<rect x="689" y="811" width="27" height="17" rx="4" class="heat0"/>
+<rect x="722" y="811" width="27" height="17" rx="4" class="heat3"/>
+<rect x="755" y="811" width="27" height="17" rx="4" class="heat4"/>
+<rect x="788" y="811" width="27" height="17" rx="4" class="heat1"/>
+<text x="56" y="690" class="summaryKey">Самое активное время</text><text x="220" y="690" class="summaryValue">15:00–18:00 MSK</text>
+<text x="56" y="722" class="summaryKey">Основное направление</text><text x="220" y="722" class="summaryValue">Machine Learning</text>
+<text x="56" y="754" class="summaryKey">Доля Data / ML / AI</text><text x="220" y="754" class="summaryValue">69%</text>
+<text x="56" y="786" class="summaryKey">Индекс разнообразия</text><text x="220" y="786" class="summaryValue">80 / 100</text>
+<line x1="56" y1="842" x2="844" y2="842" class="line"/>
+<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 06.09.2026 20:24 UTC</text>
 </svg>
