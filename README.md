@@ -73,6 +73,18 @@ focus = [
 
 `FastAPI` `React` `PostgreSQL` `ClickHouse` `GitHub Actions`
 
+## Мой GitHub в данных
+
+Раз уж я **Data Scientist**, было бы странно не проанализировать собственный GitHub. Карточка ниже собирается автоматически только по публичным репозиториям: активность, направления проектов, технологии и несколько производных метрик.
+
+<div align="center">
+
+<img src="./assets/analytics.svg" width="100%" alt="Автоматическая аналитика GitHub-профиля FORIT TECH" />
+
+</div>
+
+<sub>Метрики пересчитываются автоматически. Приватные репозитории не участвуют. Формулы, ограничения и логика классификации описаны в [методологии](./analytics/METHODOLOGY.md).</sub>
+
 ## Проекты
 
 ### [SilentShift](https://github.com/forit-tech/SilentShift)
