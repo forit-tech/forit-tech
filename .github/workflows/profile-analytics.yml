@@ -31,14 +31,36 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python analytics/generate.py
 
+      - name: Bust README image cache
+        run: |
+          stamp="$(date -u +%Y%m%d%H%M%S)"
+          python - "$stamp" <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          stamp = sys.argv[1]
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+          text, count = re.subn(
+              r'\./assets/analytics\.svg(?:\?v=[0-9]+)?',
+              f'./assets/analytics.svg?v={stamp}',
+              text,
+              count=1,
+          )
+          if count != 1:
+              raise SystemExit("analytics.svg reference not found exactly once in README.md")
+          path.write_text(text, encoding="utf-8")
+          PY
+
       - name: Commit updated analytics
         run: |
-          if git diff --quiet -- assets/analytics.svg analytics/snapshots/latest.json; then
+          if git diff --quiet -- assets/analytics.svg analytics/snapshots/latest.json README.md; then
             echo "No analytics changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/analytics.svg analytics/snapshots/latest.json
+          git add assets/analytics.svg analytics/snapshots/latest.json README.md
           git commit -m "chore(profile): refresh analytics"
           git push
