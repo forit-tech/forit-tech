@@ -1,0 +1,51 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0912"/>
+      <stop offset="0.5" stop-color="#120D1A"/>
+      <stop offset="1" stop-color="#0B0912"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBA6F7" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#CBA6F7"/>
+      <stop offset="0.5" stop-color="#F38BA8"/>
+      <stop offset="0.82" stop-color="#CBA6F7"/>
+      <stop offset="1" stop-color="#CBA6F7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="210" rx="26" fill="url(#bg)" stroke="#2A2135"/>
+  <path d="M80 106H1120" stroke="url(#line)" stroke-width="2"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="80" y="58" fill="#6C627A" font-size="18">forit@lab ~/workspace</text>
+    <text x="80" y="92" fill="#F2EAFB" font-size="24">$ build --from=data --to=product</text>
+    <text x="80" y="150" fill="#CBA6F7" font-size="19">research</text>
+    <text x="280" y="150" fill="#D9B8F5" font-size="19">validate</text>
+    <text x="482" y="150" fill="#E7A9D4" font-size="19">build</text>
+    <text x="658" y="150" fill="#F38BA8" font-size="19">break</text>
+    <text x="822" y="150" fill="#EAA6C7" font-size="19">fix</text>
+    <text x="982" y="150" fill="#CBA6F7" font-size="19">ship</text>
+  </g>
+
+  <g fill="#F38BA8" filter="url(#glow)">
+    <circle cx="180" cy="106" r="6"><animate attributeName="cx" values="180;1080;180" dur="7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g fill="#CBA6F7">
+    <circle cx="164" cy="168" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="366" cy="168" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" begin=".35s" repeatCount="indefinite"/></circle>
+    <circle cx="541" cy="168" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" begin=".7s" repeatCount="indefinite"/></circle>
+    <circle cx="717" cy="168" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" begin="1.05s" repeatCount="indefinite"/></circle>
+    <circle cx="853" cy="168" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1017" cy="168" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" begin="1.75s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect x="497" y="75" width="12" height="24" rx="2" fill="#F38BA8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
