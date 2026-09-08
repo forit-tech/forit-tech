@@ -36,24 +36,24 @@
 <text x="328" y="585" class="value">8%</text>
 <text x="520" y="342" class="label">Python</text>
 <rect x="520" y="352" width="250" height="8" rx="4" class="track"/>
-<rect x="520" y="352" width="80.0" height="8" rx="4" class="bar"/>
-<text x="782" y="360" class="value">31.6%</text>
+<rect x="520" y="352" width="100.0" height="8" rx="4" class="bar"/>
+<text x="782" y="360" class="value">39.8%</text>
 <text x="520" y="387" class="label">TypeScript</text>
 <rect x="520" y="397" width="250" height="8" rx="4" class="track"/>
-<rect x="520" y="397" width="65.0" height="8" rx="4" class="bar"/>
-<text x="782" y="405" class="value">26.1%</text>
+<rect x="520" y="397" width="60.0" height="8" rx="4" class="bar"/>
+<text x="782" y="405" class="value">24.0%</text>
 <text x="520" y="432" class="label">JavaScript</text>
 <rect x="520" y="442" width="250" height="8" rx="4" class="track"/>
-<rect x="520" y="442" width="40.0" height="8" rx="4" class="bar"/>
-<text x="782" y="450" class="value">16.1%</text>
+<rect x="520" y="442" width="35.0" height="8" rx="4" class="bar"/>
+<text x="782" y="450" class="value">13.7%</text>
 <text x="520" y="477" class="label">Jupyter Notebook</text>
 <rect x="520" y="487" width="250" height="8" rx="4" class="track"/>
-<rect x="520" y="487" width="27.5" height="8" rx="4" class="bar"/>
-<text x="782" y="495" class="value">10.6%</text>
+<rect x="520" y="487" width="22.5" height="8" rx="4" class="bar"/>
+<text x="782" y="495" class="value">9.0%</text>
 <text x="520" y="522" class="label">Другое</text>
 <rect x="520" y="532" width="250" height="8" rx="4" class="track"/>
-<rect x="520" y="532" width="40.0" height="8" rx="4" class="bar"/>
-<text x="782" y="540" class="value">15.6%</text>
+<rect x="520" y="532" width="32.5" height="8" rx="4" class="bar"/>
+<text x="782" y="540" class="value">13.5%</text>
 <line x1="56" y1="626" x2="844" y2="626" class="line"/>
 <text x="56" y="660" class="section">РИТМ РАБОТЫ</text>
 <text x="570" y="659" text-anchor="middle" class="heatAxis">00</text>
@@ -130,7 +130,7 @@
 <text x="56" y="690" class="summaryKey">Самое активное время</text><text x="220" y="690" class="summaryValue">15:00–18:00 MSK</text>
 <text x="56" y="722" class="summaryKey">Основное направление</text><text x="220" y="722" class="summaryValue">Machine Learning</text>
 <text x="56" y="754" class="summaryKey">Доля Data / ML / AI</text><text x="220" y="754" class="summaryValue">69%</text>
-<text x="56" y="786" class="summaryKey">Индекс разнообразия</text><text x="220" y="786" class="summaryValue">76 / 100</text>
+<text x="56" y="786" class="summaryKey">Индекс разнообразия</text><text x="220" y="786" class="summaryValue">72 / 100</text>
 <line x1="56" y1="842" x2="844" y2="842" class="line"/>
-<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 07.09.2026 08:19 UTC</text>
+<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 08.09.2026 08:06 UTC</text>
 </svg>
