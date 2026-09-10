@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T08:09:57.571733+00:00",
+  "generated_at": "2026-09-10T08:09:42.789924+00:00",
   "timezone": "Europe/Moscow",
   "public_repositories": 13,
   "commits_365d": 68,
@@ -10,9 +10,9 @@
     "Backend / Product": 3
   },
   "language_bytes": {
-    "Python": 1498242,
-    "TypeScript": 862875,
-    "CSS": 153952,
+    "Python": 1649904,
+    "TypeScript": 902042,
+    "CSS": 158757,
     "JavaScript": 492833,
     "HTML": 125889,
     "Java": 162586,
@@ -23,7 +23,7 @@
   },
   "technology_count": 10,
   "data_ml_ai_share_pct": 69,
-  "technology_diversity_index": 71,
+  "technology_diversity_index": 70,
   "velocity_90d_pct": 1250,
   "most_active_time_msk": "15:00–18:00",
   "main_direction": "Machine Learning"
