@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T07:56:15.828491+00:00",
+  "generated_at": "2026-09-13T08:19:57.657129+00:00",
   "timezone": "Europe/Moscow",
   "public_repositories": 13,
   "commits_365d": 71,
   "categories": {
-    "Machine Learning": 5,
     "Другое": 1,
+    "Machine Learning": 5,
     "Data Engineering": 4,
     "Backend / Product": 3
   },
