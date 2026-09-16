@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-15T08:42:15.920062+00:00",
+  "generated_at": "2026-09-16T08:37:03.335340+00:00",
   "timezone": "Europe/Moscow",
   "public_repositories": 13,
   "commits_365d": 83,
   "categories": {
-    "Backend / Product": 3,
     "Machine Learning": 5,
     "Другое": 1,
+    "Backend / Product": 3,
     "Data Engineering": 4
   },
   "language_bytes": {
-    "JavaScript": 577019,
+    "Python": 1889222,
     "TypeScript": 994888,
     "CSS": 160725,
-    "PowerShell": 26846,
-    "Python": 1889222,
+    "JavaScript": 577019,
     "HTML": 125889,
+    "PowerShell": 26846,
     "Java": 162586,
     "PLpgSQL": 12401,
     "Jupyter Notebook": 323436,
