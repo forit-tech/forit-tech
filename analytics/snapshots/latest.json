@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-09-16T08:37:03.335340+00:00",
+  "generated_at": "2026-09-17T08:40:48.288002+00:00",
   "timezone": "Europe/Moscow",
-  "public_repositories": 13,
-  "commits_365d": 83,
+  "public_repositories": 14,
+  "commits_365d": 85,
   "categories": {
-    "Machine Learning": 5,
+    "Machine Learning": 6,
     "Другое": 1,
     "Backend / Product": 3,
     "Data Engineering": 4
   },
   "language_bytes": {
-    "Python": 1889222,
+    "Python": 2261056,
+    "HTML": 210947,
+    "JavaScript": 641417,
+    "CSS": 204378,
+    "Shell": 2382,
     "TypeScript": 994888,
-    "CSS": 160725,
-    "JavaScript": 577019,
-    "HTML": 125889,
     "PowerShell": 26846,
     "Java": 162586,
     "PLpgSQL": 12401,
     "Jupyter Notebook": 323436,
     "Makefile": 2070
   },
-  "technology_count": 10,
-  "data_ml_ai_share_pct": 69,
-  "technology_diversity_index": 68,
-  "velocity_90d_pct": 1625,
+  "technology_count": 11,
+  "data_ml_ai_share_pct": 71,
+  "technology_diversity_index": 65,
+  "velocity_90d_pct": 1675,
   "most_active_time_msk": "18:00–21:00",
   "main_direction": "Machine Learning"
 }
