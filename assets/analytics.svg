@@ -7,8 +7,8 @@
 <text x="322" y="58" class="metric">71%</text><text x="322" y="80" class="metricLabel">проектов Data / ML / AI</text>
 <text x="615" y="58" class="metric">11</text><text x="615" y="80" class="metricLabel">технологий в публичном коде</text>
 <line x1="56" y1="108" x2="844" y2="108" class="line"/>
-<text x="56" y="142" class="section">АКТИВНОСТЬ ЗА 12 МЕСЯЦЕВ</text><rect x="56" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="96" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="136" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="176" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="216" y="231.8" width="24" height="6.2" rx="4" class="spark"/><rect x="256" y="231.8" width="24" height="6.2" rx="4" class="spark"/><rect x="296" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="336" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="376" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="416" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="456" y="219.3" width="24" height="18.7" rx="4" class="spark"/><rect x="496" y="180.0" width="24" height="58.0" rx="4" class="spark"/>
-<text x="56" y="270" class="sub">темп за последние 90 дней: +2050%</text>
+<text x="56" y="142" class="section">АКТИВНОСТЬ ЗА 12 МЕСЯЦЕВ</text><rect x="56" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="96" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="136" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="176" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="216" y="231.9" width="24" height="6.1" rx="4" class="spark"/><rect x="256" y="231.9" width="24" height="6.1" rx="4" class="spark"/><rect x="296" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="336" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="376" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="416" y="238.0" width="24" height="3.0" rx="4" class="spark"/><rect x="456" y="219.8" width="24" height="18.2" rx="4" class="spark"/><rect x="496" y="180.0" width="24" height="58.0" rx="4" class="spark"/>
+<text x="56" y="270" class="sub">темп за последние 90 дней: +2100%</text>
 <text x="56" y="314" class="section">НАПРАВЛЕНИЯ ПРОЕКТОВ</text><text x="520" y="314" class="section">ТЕХНОЛОГИИ</text>
 <text x="56" y="342" class="label">Data Science</text>
 <rect x="56" y="352" width="260" height="8" rx="4" class="track"/>
@@ -37,23 +37,23 @@
 <text x="520" y="342" class="label">Python</text>
 <rect x="520" y="352" width="250" height="8" rx="4" class="track"/>
 <rect x="520" y="352" width="125.0" height="8" rx="4" class="bar"/>
-<text x="782" y="360" class="value">50.1%</text>
+<text x="782" y="360" class="value">50.2%</text>
 <text x="520" y="387" class="label">TypeScript</text>
 <rect x="520" y="397" width="250" height="8" rx="4" class="track"/>
 <rect x="520" y="397" width="45.0" height="8" rx="4" class="bar"/>
-<text x="782" y="405" class="value">18.4%</text>
+<text x="782" y="405" class="value">18.3%</text>
 <text x="520" y="432" class="label">JavaScript</text>
 <rect x="520" y="442" width="250" height="8" rx="4" class="track"/>
-<rect x="520" y="442" width="32.5" height="8" rx="4" class="bar"/>
+<rect x="520" y="442" width="35.0" height="8" rx="4" class="bar"/>
 <text x="782" y="450" class="value">13.5%</text>
 <text x="520" y="477" class="label">Jupyter Notebook</text>
 <rect x="520" y="487" width="250" height="8" rx="4" class="track"/>
 <rect x="520" y="487" width="15.0" height="8" rx="4" class="bar"/>
-<text x="782" y="495" class="value">6.0%</text>
+<text x="782" y="495" class="value">5.9%</text>
 <text x="520" y="522" class="label">Другое</text>
 <rect x="520" y="532" width="250" height="8" rx="4" class="track"/>
 <rect x="520" y="532" width="30.0" height="8" rx="4" class="bar"/>
-<text x="782" y="540" class="value">12.1%</text>
+<text x="782" y="540" class="value">12.0%</text>
 <line x1="56" y1="626" x2="844" y2="626" class="line"/>
 <text x="56" y="660" class="section">РИТМ РАБОТЫ</text>
 <text x="570" y="659" text-anchor="middle" class="heatAxis">00</text>
@@ -107,7 +107,7 @@
 <rect x="656" y="765" width="27" height="17" rx="4" class="heat2"/>
 <rect x="689" y="765" width="27" height="17" rx="4" class="heat1"/>
 <rect x="722" y="765" width="27" height="17" rx="4" class="heat3"/>
-<rect x="755" y="765" width="27" height="17" rx="4" class="heat1"/>
+<rect x="755" y="765" width="27" height="17" rx="4" class="heat2"/>
 <rect x="788" y="765" width="27" height="17" rx="4" class="heat1"/>
 <text x="539" y="801" text-anchor="end" class="heatAxis">Сб</text>
 <rect x="557" y="788" width="27" height="17" rx="4" class="heat0"/>
@@ -132,5 +132,5 @@
 <text x="56" y="754" class="summaryKey">Доля Data / ML / AI</text><text x="220" y="754" class="summaryValue">71%</text>
 <text x="56" y="786" class="summaryKey">Индекс разнообразия</text><text x="220" y="786" class="summaryValue">63 / 100</text>
 <line x1="56" y1="842" x2="844" y2="842" class="line"/>
-<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 18.09.2026 08:16 UTC</text>
+<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 19.09.2026 08:04 UTC</text>
 </svg>
