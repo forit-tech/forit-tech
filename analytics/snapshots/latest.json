@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T08:04:21.360812+00:00",
+  "generated_at": "2026-09-20T08:36:49.913528+00:00",
   "timezone": "Europe/Moscow",
   "public_repositories": 14,
   "commits_365d": 102,
   "categories": {
-    "Machine Learning": 6,
     "Другое": 1,
+    "Machine Learning": 6,
     "Backend / Product": 3,
     "Data Engineering": 4
   },
@@ -25,7 +25,7 @@
   "technology_count": 11,
   "data_ml_ai_share_pct": 71,
   "technology_diversity_index": 63,
-  "velocity_90d_pct": 2100,
+  "velocity_90d_pct": 2833,
   "most_active_time_msk": "18:00–21:00",
   "main_direction": "Machine Learning"
 }
