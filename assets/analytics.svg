@@ -127,10 +127,10 @@
 <rect x="722" y="811" width="27" height="17" rx="4" class="heat3"/>
 <rect x="755" y="811" width="27" height="17" rx="4" class="heat4"/>
 <rect x="788" y="811" width="27" height="17" rx="4" class="heat3"/>
-<text x="56" y="690" class="summaryKey">Самое активное время</text><text x="220" y="690" class="summaryValue">12:00–15:00 MSK</text>
+<text x="56" y="690" class="summaryKey">Самое активное время</text><text x="220" y="690" class="summaryValue">18:00–21:00 MSK</text>
 <text x="56" y="722" class="summaryKey">Основное направление</text><text x="220" y="722" class="summaryValue">Machine Learning</text>
 <text x="56" y="754" class="summaryKey">Доля Data / ML / AI</text><text x="220" y="754" class="summaryValue">71%</text>
 <text x="56" y="786" class="summaryKey">Индекс разнообразия</text><text x="220" y="786" class="summaryValue">64 / 100</text>
 <line x1="56" y1="842" x2="844" y2="842" class="line"/>
-<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 26.09.2026 08:37 UTC</text>
+<text x="56" y="872" class="sub">Автоматически по публичным репозиториям · обновлено 27.09.2026 09:16 UTC</text>
 </svg>
