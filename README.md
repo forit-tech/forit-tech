@@ -75,7 +75,7 @@ focus = [
 
 <div align="center">
 
-<img src="./assets/analytics.svg?v=20261020083358" width="100%" alt="Автоматическая аналитика публичной GitHub-активности FORIT TECH" />
+<img src="./assets/analytics.svg?v=20261021083609" width="100%" alt="Автоматическая аналитика публичной GitHub-активности FORIT TECH" />
 
 </div>
 
