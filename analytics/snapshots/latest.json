@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:42:18.998470+00:00",
+  "generated_at": "2026-11-20T11:41:50.415117+00:00",
   "timezone": "Europe/Moscow",
   "public_repositories": 14,
   "commits_365d": 136,
@@ -25,7 +25,7 @@
   "technology_count": 11,
   "data_ml_ai_share_pct": 71,
   "technology_diversity_index": 60,
-  "velocity_90d_pct": 5900,
+  "velocity_90d_pct": 1020,
   "most_active_time_msk": "12:00–15:00",
   "main_direction": "Machine Learning"
 }
